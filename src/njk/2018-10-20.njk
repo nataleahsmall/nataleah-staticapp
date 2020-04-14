@@ -1,0 +1,17 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[2] %}
+
+{% block page_title %}{{ entry.title }}{% endblock %}
+
+{% block description %}Blog entry for Oct. 20, 2018, {{ entry.title }}{% endblock %}
+
+{% block story %}
+  <h1>{{ entry.title }}</h1>
+  <h5>Captain's log: Oct. 20, 2018</h5>
+  <img src="img/kraken01.jpg" class="img-fluid" alt="Responsive image">
+  <br>
+  <p>Grog blossom reef sails gabion chase guns Barbary Coast tackle galleon tender splice the main brace holystone. Spyglass Chain Shot lugger tack Shiver me timbers knave chase hail-shot run a rig wherry. Schooner Jolly Roger topgallant nipper brig spyglass main sheet lee gaff Sink me.</p>
+  <p>Bring a spring upon her cable coxswain chase guns Davy Jones' Locker black jack provost list American Main Jolly Roger lugsail. Ho man-of-war Jack Ketch snow coffer holystone chantey dead men tell no tales transom quarterdeck. Scurvy trysail scallywag dance the hempen jig smartly lad belaying pin clap of thunder coffer bilge water.</p>
+  <p>Jack Ketch cog ahoy galleon Cat o'nine tails swing the lead spike Buccaneer scurvy Blimey. Blow the man down scuttle sutler Jack Tar bilge swab me take a caulk careen walk the plank. Hang the jib lookout parrel hempen halter sheet transom strike colors swab pinnace fire in the hole.</p>
+{% endblock %}

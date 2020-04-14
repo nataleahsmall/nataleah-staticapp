@@ -1,0 +1,17 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[1] %}
+
+{% block page_title %}{{ entry.title }}{% endblock %}
+
+{% block description %}Blog entry for Oct. 19, 2018, {{ entry.title }}{% endblock %}
+
+{% block story %}
+  <h1>{{ entry.title }}</h1>
+  <h5>Captain's log: Oct. 19, 2018</h5>
+  <img src="img/kraken02.jpg" class="img-fluid" alt="Responsive image">
+  <br>
+  <p>Log splice the main brace wench hempen halter cackle fruit run a rig long boat jury mast provost to go on account. Galleon reef sails gaff me gabion furl coffer swing the lead quarterdeck lad. Matey Sea Legs maroon hands chandler dance the hempen jig clipper crack Jennys tea cup weigh anchor driver.</p>
+  <p>Spanish Main quarter Letter of Marque list lugger splice the main brace mutiny pinnace knave killick. Avast Brethren of the Coast Jack Ketch man-of-war snow heave down pink hang the jib chantey fire ship. Stern sloop crow's nest gibbet rope's end aye jib parley quarter league.</p>
+  <p>Gun heave to draught fire in the hole boom deadlights spike Shiver me timbers plunder haul wind. Knave Blimey lugger blow the man down heave to jolly boat aye lad tack Jack Ketch. Maroon Barbary Coast fathom Jack Ketch cutlass mizzen rope's end black spot clipper reef sails.</p>
+{% endblock %}
